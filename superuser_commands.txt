@@ -1,0 +1,5 @@
+# Comandos para criar superuser no PythonAnywhere Bash console:
+workon meuenv  # Ative o virtualenv (substitua 'meuenv' pelo nome do seu virtualenv)
+cd milenaartdjango  # Navegue para o diretório do projeto
+python manage.py createsuperuser  # Execute o comando
+# Siga os prompts para username, email e password
